@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTMLとCSSだけでドラえもん描いてみた</title>
+    <link rel="stylesheet" type="text/css" href="doraemon.css">
+    <link rel="stylesheet" type="text/javascript" href="doraemon.js">
+    <script type="text/javascript">
+        function color1(base){
+            document.bgColor = "#07beea"; 
+        }
+        function color2(base){
+            document.bgColor = "#ffff00";
+        }
+    </script>
+</head>
+<body>
+    <div class = "doraemon">
+        <div class = face>
+            <div class = "whiskers_left_top"></div>
+            <div class = "whiskers_left_bottom"></div>
+            <div class = "whiskers_left_center"></div>
+            <div class = "whiskers_right_top"></div>
+            <div class = "whiskers_right_bottom"></div>
+            <div class = "whiskers_right_center"></div>
+
+            <!-- <div class = "nose"></div> -->
+            <div class = "noseline"></div>
+
+            <div class = "mouth"></div>
+
+            <div class = "white"></div>
+            <div class = "eyes">
+                <div class = "right_eye"></div>
+                <div class = "left_eye"></div>
+                <div class = "black_right_eye"></div>
+                <div class = "black_left_eye"></div>
+            </div>
+            
+            <div id = "base">
+                    <input type = "button" id="button" onclick="button3();"></input>
+            </div>
+            
+        </div>
+        <div class = "neck">
+            <div class= "collar"></div>
+            <div class= "bell">
+                <div class = "bell_line"></div>
+                    <div class = "bell_center"></div>
+                    <div class = "bell_bottom"></div>
+            </div>
+        </div>
+        <input type="button" value="Click" onclick="button()">
+    </div>
+
+</body>
+</html>
